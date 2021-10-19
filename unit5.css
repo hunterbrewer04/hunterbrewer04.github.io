@@ -1,0 +1,73 @@
+.body {
+  background-color: lightblue;
+}
+
+.center {
+  text-align:center;
+}
+
+#middle {
+  text-align:center;
+}
+
+#wrapper {
+  width:80%;
+  margin:auto;
+  background-color: bisque;
+  box-shadow: 2px;
+}
+
+div {
+  width:90%;
+  margin:auto;
+}
+
+.itembox {
+  border:solid;
+  border-radius: 2px;
+  box-shadow: backdrop;
+  background-color:grey;
+  color:black;
+  padding:10px;
+}
+
+.favorite {
+border:dotted;
+  border-radius: 2px;
+  box-shadow: backdrop;
+  background-color:#FFF0F5;
+  color:brown;
+  padding:10px;
+}
+
+ul {
+background-color: grey;
+list-style-type: square;
+}
+
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.bar {
+   float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
