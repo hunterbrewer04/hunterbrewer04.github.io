@@ -1,0 +1,33 @@
+.borderimage {
+  height:300px;
+}
+
+#borderimg {
+  background-color: #42403F;
+  color: white;
+}
+
+body {
+  background-image: url("starsss.jpg");
+  background-size: cover;
+}
+
+#Wrapper {
+ width:60%;
+ margin: auto;
+ margin-top: 30px;
+}
+
+ul {
+  list-style-image: url("apple.png")
+}
+
+.specialborder {
+  border-image-slice:12 12 12 12;
+  border-image-width:12px 12px 12px 12px;
+  border-image-outset:0px 0px 0px 0px;
+  border-image-repeat:repeat repeat;
+  border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-5.png");
+  border-style:solid;
+}
+  
