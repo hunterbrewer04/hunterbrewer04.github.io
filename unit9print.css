@@ -1,0 +1,22 @@
+#nav {
+  display:none;
+}
+
+#sidebar {
+  display:none;
+}
+
+#news {
+  display:none;
+}
+
+img {
+  display:none;
+}
+
+body {
+  font-size:1.25em;
+  padding: 8%;
+}
+
+a:after{content:" (" attr(href) ") ";font-size:.8em;}
