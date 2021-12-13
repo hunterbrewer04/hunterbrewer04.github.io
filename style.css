@@ -54,3 +54,16 @@ li a:hover:not(.navbar) {
   height:300px;
   color:white;
 }
+
+@media (max-width: 749px) {
+  .name {
+    text-align:center;
+    position:relative;
+    font-size: 2em;
+  }
+
+  .profilepic {
+    height: auto;
+    width: 200px;
+  }
+}
