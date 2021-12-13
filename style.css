@@ -1,7 +1,22 @@
 .homepage {
-  text-align:center;
-  background-color:#474A4F;
+  text-align: center;
+  background-color:#556F7A;
   margin:0;
+}
+
+/* #222831
+#DDDD */
+
+
+.name {
+  font-family: cursive;
+  font-size: 3.5em;
+  
+}
+
+.profilepic {
+  height: auto;
+  max-width: 500px;
 }
 
 .projects {
@@ -9,10 +24,11 @@
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: #DDDD;
   position: fixed;
   height: 100%;
   overflow: auto;
+  text-align:center;
 }
 
 li a {
@@ -35,6 +51,6 @@ li a:hover:not(.navbar) {
 .upper {
   margin-left:25%;
   padding:1px 16px;
-  height:500px;
+  height:300px;
   color:white;
 }
