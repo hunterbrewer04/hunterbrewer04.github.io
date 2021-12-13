@@ -9,14 +9,18 @@
 
 
 .name {
+  position: relative;
   font-family: cursive;
   font-size: 3.5em;
-  
+  margin-top: 10px;
+  text-align:center;
 }
 
 .profilepic {
+  position: relative;
   height: auto;
   max-width: 500px;
+  
 }
 
 .projects {
@@ -67,3 +71,17 @@ li a:hover:not(.navbar) {
     width: 200px;
   }
 }
+
+@media (max-width: 400px) {
+  .name {
+    text-align:center;
+    position: relative;
+    font-size:2em;
+  }
+
+  .profilepic {
+    height: auto;
+    width: 200px;
+  }
+}
+
