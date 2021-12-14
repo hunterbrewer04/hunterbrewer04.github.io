@@ -10,29 +10,62 @@
 
 <body class="homepage">
 
-<ul class="projects">
-    <li class="navbar"><a href="unit1.htm">Unit 1 Project</a></li>
-    <li class="navbar"><a href="unit2.htm">Unit 2 Project</a></li>
-    <li class="navbar"><a href="unit3.htm">Unit 3 Project - Dynamic Image Gallery</a></li>
-    <li class="navbar"><a href="unit4.html">Unit 4 Project</a></li>
-    <li class="navbar"><a href="unit5.html">Unit 5 Project</a></li>
-    <li class="navbar"><a href="unit6.html">Unit 6 Project</a></li>
-    <li class="navbar"><a href="unit7.html">Unit 7 Project</a></li>
-    <li class="navbar"><a href="unit7p2.html">Unit 7 Project Part 2</a></li>
-    <li class="navbar"><a href="unit8sitemaps.html">Unit 8 Sitemaps Project</a></li>
-    <li class="navbar"><a href="unit8wireframes.html">Unit 8 Wireframes Project</a></li>
-    <li class="navbar"><a href="unit9print.html">Unit 9 Print Using CSS</a></li>
-    <li class="navbar"><a href="unit9anchor.html">Unit 9 Anchor Links</a></li>
-    
-  </ul>
+	<div class="nav">
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<div class="dropdown">
+			<button class="dropbtn">Projects
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="projects/unit1.htm">Unit 1 Project</a>
+      <a href="projects/unit2.htm">Unit 2 Project</a>
+      <a href="projects/unit3.htm">Unit 3 - Dynamic Image Gallery</a>
+      <a href="projects/unit4.html">Unit 4 Project</a>
+      <a href="projects/unit5.html">Unit 5 Project</a>
+      <a href="projects/unit6.html">Unit 6 Project</a>
+      <a href="projects/unit7.html">Unit 7 Project</a>
+      <a href="projects/unit7p2.html">Unit 7 Project Part 2</a>
+      <a href="projects/unit8sitemaps.html">Unit 8 Sitemaps</a>
+      <a href="projects/unit8wireframes.html">Unit 8 Wireframes</a>
+      <a href="projects/unit9print.html">Unit 9 Print Using CSS</a>
+      <a href="projects/unit9anchor.html">Unit 9 Anchor Links</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+
+
+
+
   
-  <div class="upper">
+  <div class="header">
     <h1 class="name"><b>Hunter Brewer</b></h1>
   
-  <img src="images/me.jpg" class="profilepic">
+  <img src="me.jpg" class="profilepic">
 
   </div>
   </div>
+
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
   </body>
 
 </html>

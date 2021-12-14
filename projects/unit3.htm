@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Unit 3 HTML Project</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header><b><h1>Dynamic Image Gallery</h1></b></header>
+    <main>
+<!-- use img and picture tags -->
+
+  <h3>Corn</h3>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/corn.jpg">
+      <source media="(min-width:426px)" srcset="images/fullgrown.jpg">
+      <source media="(min-width:321px)" srcset="images/baby.jpg">
+      <img src ="images/seed.jpg" alt="Corn" width="200" height="200">
+    </picture>
+<hr>
+  <h3>Vehicles</h3>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/semi.jpg">
+      <source media="(min-width:426px)" srcset="images/car.jpg">
+      <source media="(min-width:321px)" srcset="images/rccar.jpg">
+      <img src="images/match.jpg" alt="Vehicles" width="200" height="200">
+    </picture>
+<hr>
+  <h3>Movies</h3>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/drivein.jpg">
+      <source media="(min-width:426px)" srcset="images/tv.jpg">
+      <source media="(min-width:321px)" srcset="images/ipad.jpg">
+      <img src ="images/phone.jpg" alt="Movies" width="200" height="200">
+    </picture>
+<hr>
+    </main>
+
+    <footer><h4>&copy; 2021 Hunter Brewer</h4></footer>
+  </body>
+</html>
